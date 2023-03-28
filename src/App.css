@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  background-color: rgb(93, 69, 97); 
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0; 
+  
+  
+}
+
+div.container {
+  width: 100%;
+  max-width: var(--maxwidth);
+  margin: 0 auto;
+  background-color: var(--white);
+  overflow: hidden;
+  position: relative; 
+  
+}
+
+header {
+  padding-bottom: 2rem;
+}
+
+
+main {
+  background-color: rgb(58, 45, 71);
+  
+} 
+
+h1 { 
+  color: beige;
+  display: flex; 
+  justify-content: center; 
+  padding-top: 3rem; 
+  font-size: 3rem;
+ 
+  
+}
+h2, h3, p{
+  color: beige;
+  padding-left: 1rem; 
+ 
+}  
+
+img {  
+
+  display: flex; 
+  max-width: 300px;
+}
+
+.movie-view{ 
+  
+  padding: 2rem;
+  overflow: hidden;
+  
+  color: var(--white);
+  margin-bottom: 2rem; 
+  align-items: center; 
+  display: inline-flex; 
+  flex-wrap: wrap; 
+  justify-content: space-around;
+
+  
+
+  
+}
+
+.movie-card {
+  box-shadow: 0 5px 5px 0;
+  padding: 15px 15px; 
+  background-color: rgb(93, 69, 97); 
+  max-width: 300px;
+  margin-bottom: 20px; 
+ 
+  
+}
+
+
+.searchbar {
+  display: flex; 
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+} 
+
+footer{ 
+  padding: 2rem;
+  text-align: center; 
+  color: beige;
+}
